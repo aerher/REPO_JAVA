@@ -409,10 +409,10 @@ un automata finito deterministico, nos dice que se puede objetener de una serie 
 
 ## TRABAJO EN DIFERENTE PC  
   Otra PC:
-git clone
-git add .
-git commit
-git push
+- git clone
+- git add .
+- git commit
+- git push
 
 PC de casa:
-git pull
+- git pull
