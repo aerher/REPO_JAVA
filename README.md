@@ -133,6 +133,7 @@ public class Suma{
   - git push  
   - git checkout -b dev  
   - git push -u origin master : es para que git recuerde la conexion entre tu local y el remoto  
+  ![GIT](/assets/GIT.PNG)
   
   ### Pero si git push no conectado a una URL  
   - git remote add origin "URL httml " : nos sirve para conectar el repositorio virtual con nuestra maquina local y se puedan hacer los push de nuestros archivos  
@@ -140,8 +141,7 @@ public class Suma{
 -  
   ## Comandos para Markdown  
   - **![titulo de la imagen a presentar](colocar ruta especifica de la imagen)**: es para presentacion de imagenes en un markdown y que se exporte a un pdf para presentacion formales  
-  ![MARKDOWN](
-    /prjGithub/assets/markdown.png)
+  ![MARKDOWN](/prjGithub/assets/markdown.png)
 
 ## Actividad 13/04  
 - git log -d--decorate --oneline : es para saber cuando mcomit he hecho sobre mi proyecto y ver cambios y modificaciones  
@@ -165,7 +165,7 @@ public static void main(String[]args){
 
 ***Modelo de prj en java con sus integraciones y carpetas para un trabajo limpio***
 
-![Model](/java/assets/modelojv.PNG)
+![Model](/assets/modelojv.PNG)
 
 ## Esqueleto De Un Programa En Java  
 las primeras lineas de codigo como ejm 1 y 2, es para decalaracion de un package o una libreria a llamar, como un import.
@@ -188,9 +188,9 @@ public class Main{
 -  Puedes asignar un valor a la variable declarada mediante el operador = .
  - Una variable puede cambiar su valor durante el programa, asignándole un nuevo valor.
 
-![POO](/java/assets/POO.PNG)
+![POO](/assets/POO.PNG)
 
-![ICOM](/java/assets/ICOM.PNG)
+![ICOM](/assets/ICOM.PNG)
 
 
   
@@ -232,7 +232,7 @@ Ejemplo :
   ```
 
   ## Pasos de condicionales para crear un FlujoGrama
-  ![DiagramaFLujo](/java/assets/DDF.PNG)
+  ![DiagramaFLujo](/assets/DDF.PNG)
 
 
 ## Diagrama de Flujo del prj -> POO INTRO 20/04
@@ -249,17 +249,17 @@ cada figura geometrica representa cada paso  puntual del proceso que esta puntua
 
 donde;  
 
-![DFJ](/java/assets/DFJ.PNG)
+![DFJ](/assets/DFJ.PNG)
 
 
-![DFone](/java/assets/ejerciceone%20.PNG)
+![DFone](/assets/ejerciceone%20.PNG)
 
-  ![Conditions](/java/assets/Conditions.PNG)
+  ![Conditions](/assets/Conditions.PNG)
 
   ## FlujoDrama o Diagrama de Flujo
   para poder organizar las ideas de mi programa de manera mas grafica y de manera mas practica ;
 
-  ![if](/java/assets/if.PNG)
+  ![if](/assets/if.PNG)
 
 ## Para poder un prj bien proyectado y explicativo en su creacion -> proyectos java 21/04
 
@@ -405,4 +405,4 @@ un automata finito deterministico, nos dice que se puede objetener de una serie 
 - F o qf : donde es el ultimo estado de nuestra cadena de caracteres determinada y aceptada  
 - tambien se determina los movimientos del automata o de las cademas aceptadas mediante una tabla de transiciones  
   
-  ![AFD](/java/assets/AFD.PNG)
+  ![AFD](/assets/AFD.PNG)
