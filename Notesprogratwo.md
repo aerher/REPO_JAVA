@@ -143,6 +143,13 @@ public class Suma{
   - **![titulo de la imagen a presentar](colocar ruta especifica de la imagen)**: es para presentacion de imagenes en un markdown y que se exporte a un pdf para presentacion formales  
   ![MARKDOWN](/prjGithub/assets/markdown.png)
 
+
+# Remove the globally set username
+git config --global --unset user.name
+# Verify removal
+git config --global --list
+
+
 ## Actividad 13/04  
 - git log -d--decorate --oneline : es para saber cuando mcomit he hecho sobre mi proyecto y ver cambios y modificaciones  
 - git tag <"name ">  : es para darte una etiqueta a un commit que sea importante de todos los commit que he realizado  
