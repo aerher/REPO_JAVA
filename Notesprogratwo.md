@@ -406,3 +406,13 @@ un automata finito deterministico, nos dice que se puede objetener de una serie 
 - tambien se determina los movimientos del automata o de las cademas aceptadas mediante una tabla de transiciones  
   
   ![AFD](/assets/AFD.PNG)
+
+  ## TRABAJO EN DIFERENTE PC  
+  Otra PC:
+- git clone
+- git add .
+- git commit
+- git push
+
+PC de casa:
+- git pull
