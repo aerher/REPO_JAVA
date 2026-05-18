@@ -423,3 +423,8 @@ un automata finito deterministico, nos dice que se puede objetener de una serie 
 
 PC de casa:
 - git pull
+
+## Preview Exam
+![Exam](/assets/Exam.png)
+
+
