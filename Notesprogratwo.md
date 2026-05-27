@@ -411,6 +411,8 @@ un automata finito deterministico, nos dice que se puede objetener de una serie 
 - δ : los estados de transcion que tiene el automata  
 - F o qf : donde es el ultimo estado de nuestra cadena de caracteres determinada y aceptada  
 - tambien se determina los movimientos del automata o de las cademas aceptadas mediante una tabla de transiciones  
+
+para mayor interaccion o en la creacion de los AFD de manera digital, podemos realizar mediante el portable **JFLAP** que nos permite realizar, ya se utilizando todas las caracteristicas ademas como un modelo muy limpio y organizado en obtenerlo.  
   
   ![AFD](/assets/AFD.PNG)
 
