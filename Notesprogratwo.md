@@ -195,7 +195,9 @@ public class Main{
 -  Puedes asignar un valor a la variable declarada mediante el operador = .
  - Una variable puede cambiar su valor durante el programa, asignándole un nuevo valor.
 
+
 ![POO](/assets/POO.PNG)
+
 
 ![ICOM](/assets/ICOM.PNG)
 
@@ -239,7 +241,7 @@ Ejemplo :
   ```
 
   ## Pasos de condicionales para crear un FlujoGrama
-  ![DiagramaFLujo](/assets/DDF.PNG)
+  ![DiagramaFlujo](/assets/DDF.PNG)
 
 
 ## Diagrama de Flujo del prj -> POO INTRO 20/04
@@ -256,7 +258,9 @@ cada figura geometrica representa cada paso  puntual del proceso que esta puntua
 
 donde;  
 
+
 ![DFJ](/assets/DFJ.PNG)
+
 
 
 ![DFone](/assets/ejerciceone%20.PNG)

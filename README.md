@@ -143,6 +143,13 @@ public class Suma{
   - **![titulo de la imagen a presentar](colocar ruta especifica de la imagen)**: es para presentacion de imagenes en un markdown y que se exporte a un pdf para presentacion formales  
   ![MARKDOWN](/prjGithub/assets/markdown.png)
 
+
+# Remove the globally set username
+git config --global --unset user.name
+# Verify removal
+git config --global --list
+
+
 ## Actividad 13/04  
 - git log -d--decorate --oneline : es para saber cuando mcomit he hecho sobre mi proyecto y ver cambios y modificaciones  
 - git tag <"name ">  : es para darte una etiqueta a un commit que sea importante de todos los commit que he realizado  
@@ -188,7 +195,9 @@ public class Main{
 -  Puedes asignar un valor a la variable declarada mediante el operador = .
  - Una variable puede cambiar su valor durante el programa, asignándole un nuevo valor.
 
+
 ![POO](/assets/POO.PNG)
+
 
 ![ICOM](/assets/ICOM.PNG)
 
@@ -232,7 +241,7 @@ Ejemplo :
   ```
 
   ## Pasos de condicionales para crear un FlujoGrama
-  ![DiagramaFLujo](/assets/DDF.PNG)
+  ![DiagramaFlujo](/assets/DDF.PNG)
 
 
 ## Diagrama de Flujo del prj -> POO INTRO 20/04
@@ -249,7 +258,9 @@ cada figura geometrica representa cada paso  puntual del proceso que esta puntua
 
 donde;  
 
+
 ![DFJ](/assets/DFJ.PNG)
+
 
 
 ![DFone](/assets/ejerciceone%20.PNG)
@@ -404,10 +415,12 @@ un automata finito deterministico, nos dice que se puede objetener de una serie 
 - δ : los estados de transcion que tiene el automata  
 - F o qf : donde es el ultimo estado de nuestra cadena de caracteres determinada y aceptada  
 - tambien se determina los movimientos del automata o de las cademas aceptadas mediante una tabla de transiciones  
+
+para mayor interaccion o en la creacion de los AFD de manera digital, podemos realizar mediante el portable **JFLAP** que nos permite realizar, ya se utilizando todas las caracteristicas ademas como un modelo muy limpio y organizado en obtenerlo.  
   
   ![AFD](/assets/AFD.PNG)
 
-## TRABAJO EN DIFERENTE PC  
+  ## TRABAJO EN DIFERENTE PC  
   Otra PC:
 - git clone
 - git add .
@@ -416,3 +429,8 @@ un automata finito deterministico, nos dice que se puede objetener de una serie 
 
 PC de casa:
 - git pull
+
+## Preview Exam
+![Exam](/assets/Exam.png)
+
+
