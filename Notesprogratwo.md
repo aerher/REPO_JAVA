@@ -451,6 +451,12 @@ PC de casa:
 ## Preview Exam
 ![Exam](assets/Exam.png)
 ---
+<<<<<<< HEAD
+=======
+
+---
+# Segundo Bimestre
+>>>>>>> 49772992eba31bec7985c53cd62dd6cafcc9433a
 
 ---
 # Segundo Bimestre.
