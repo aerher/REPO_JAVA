@@ -133,7 +133,7 @@ public class Suma{
   - git push  
   - git checkout -b dev  
   - git push -u origin master : es para que git recuerde la conexion entre tu local y el remoto  
-  ![GIT](/assets/GIT.PNG)
+  ![GIT](assets/GIT.PNG)
   
   ### Pero si git push no conectado a una URL  
   - git remote add origin "URL httml " : nos sirve para conectar el repositorio virtual con nuestra maquina local y se puedan hacer los push de nuestros archivos  
@@ -141,8 +141,24 @@ public class Suma{
 -  
   ## Comandos para Markdown  
   - **![titulo de la imagen a presentar](colocar ruta especifica de la imagen)**: es para presentacion de imagenes en un markdown y que se exporte a un pdf para presentacion formales  
-  ![MARKDOWN](/prjGithub/assets/markdown.png)
+  ![MARKDOWN](prjGithub/assets/markdown.png)
 
+## Comandos GIT para colocar usuario y email, ademas, ver lista de usuario registrado y eliminar 
+
+```Bash
+// para registrar para un repositorio
+git config --global user.name
+git config --global user.email
+```
+```Bash
+// para ver la configuracion actual
+git config --global --list
+```
+```Bash
+// para remover la configuracion local del repositorio
+git config --unset user.name
+git config --unset user.email
+```
 
 # Remove the globally set username
 git config --global --unset user.name
@@ -172,7 +188,7 @@ public static void main(String[]args){
 
 ***Modelo de prj en java con sus integraciones y carpetas para un trabajo limpio***
 
-![Model](/assets/modelojv.PNG)
+![Model](assets/modelojv.PNG)
 
 ## Esqueleto De Un Programa En Java  
 las primeras lineas de codigo como ejm 1 y 2, es para decalaracion de un package o una libreria a llamar, como un import.
@@ -196,10 +212,10 @@ public class Main{
  - Una variable puede cambiar su valor durante el programa, asignándole un nuevo valor.
 
 
-![POO](/assets/POO.PNG)
+![POO](assets/POO.PNG)
 
 
-![ICOM](/assets/ICOM.PNG)
+![ICOM](assets/ICOM.PNG)
 
 
   
@@ -241,7 +257,7 @@ Ejemplo :
   ```
 
   ## Pasos de condicionales para crear un FlujoGrama
-  ![DiagramaFlujo](/assets/DDF.PNG)
+  ![DiagramaFlujo](assets/DDF.PNG)
 
 
 ## Diagrama de Flujo del prj -> POO INTRO 20/04
@@ -259,18 +275,18 @@ cada figura geometrica representa cada paso  puntual del proceso que esta puntua
 donde;  
 
 
-![DFJ](/assets/DFJ.PNG)
+![DFJ](assets/DFJ.PNG)
 
 
 
-![DFone](/assets/ejerciceone%20.PNG)
+![DFone](assets/ejerciceone%20.PNG)
 
-  ![Conditions](/assets/Conditions.PNG)
+  ![Conditions](assets/Conditions.PNG)
 
   ## FlujoDrama o Diagrama de Flujo
   para poder organizar las ideas de mi programa de manera mas grafica y de manera mas practica ;
 
-  ![if](/assets/if.PNG)
+  ![if](assets/if.PNG)
 
 ## Para poder un prj bien proyectado y explicativo en su creacion -> proyectos java 21/04
 
@@ -334,6 +350,7 @@ donde tiene varias formas
 tenemos varios que por las cuales tenemos que algunos que retornan en valor u otros que no lo hacen.
 los que no retornan valor tambien conocidos los tipo **void**
 (parameters){body}
+
 ```java
 - parametros
 <public/protect/private> void NombreMeotodo(){body}
@@ -354,6 +371,7 @@ retorno con parametro
 return <TipoDato>
 }
 ```
+
 ``` java
 public void MostrarDato();{
   ...
@@ -418,7 +436,7 @@ un automata finito deterministico, nos dice que se puede objetener de una serie 
 
 para mayor interaccion o en la creacion de los AFD de manera digital, podemos realizar mediante el portable **JFLAP** que nos permite realizar, ya se utilizando todas las caracteristicas ademas como un modelo muy limpio y organizado en obtenerlo.  
   
-  ![AFD](/assets/AFD.PNG)
+  ![AFD](assets/AFD.PNG)
 
   ## TRABAJO EN DIFERENTE PC  
   Otra PC:
@@ -431,6 +449,50 @@ PC de casa:
 - git pull
 
 ## Preview Exam
-![Exam](/assets/Exam.png)
+![Exam](assets/Exam.png)
+---
 
+---
+# Segundo Bimestre.
 
+## Propiedades y Metodos de Clases
+
+para propiedades tenemos en cada uno de las clases, propiedades que definan o que nosotros demos a entender de ese objeto a definir, como puede ser los int String, float mientras que metodos es llamas unas propiedades a mostrar sobre mi clase, es decir, hacer mi clase de una forma publica, si mis propiedades tengan restrincciones.
+
+En propiedades, siempre va con mayusculas mientras los metodos pueden ir en minusculas siendo asi, una forma mas versatil y rapido de tipio al momento de entender los metodos y siempre tiene que tener con un verbo en infinitivo. 
+
+la forma donde podemos mostrar un codigo, donde se puede hablar sobre el esquema de mi proyecto o de mi POO es tambien conocido como los Diagramas de UML
+
+![UML](assets/UML.png)
+
+---
+## Use Case Diagram
+
+los diagramas de cassos de uso generalmente se desarrollan en la etapa inicial de desarrollo y las personas a menudo aplican el modelado de caso. 
+
+**modelo stickman para el modelo del UML**
+- ---> : Relacion 
+- Cuadro : Dominio de Sistema 
+- circulo : use case 
+
+![usecase](assets/Use_Case.png)
+
+![simbolusecase](assets/simbologia_usecase.png)
+
+tambien llamado como un **actor** que puede representar :
+- objeto
+- Sujeto
+- animal
+- other objects
+
+### Supermaxi Model for Use case Diagram 
+tenemos los modelos mas comunes para un supermercado, tal que tenemos algunas funciones o realmente como funciona el sistema que manejan de compra como una marca a reconocer, como : 
+- productos 
+- perchas 
+- perchas 
+- clientes 
+- casillero 
+- cajero 
+tal que modelando en un Use Case deberia quedar en un modelo tq 
+
+![DrawnSupermaxi](assets/Usecase_Supermaxi.png)
