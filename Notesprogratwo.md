@@ -502,3 +502,12 @@ tenemos los modelos mas comunes para un supermercado, tal que tenemos algunas fu
 tal que modelando en un Use Case deberia quedar en un modelo tq 
 
 ![DrawnSupermaxi](assets/Usecase_Supermaxi.png)
+
+
+## Herencia y Asociaciones 
+### Creacion de UML para toma de casos y manejo de codigo mendiante grafico para mayor interacción 
+(colocar info y grabacion 15/06 de Herencia en Teams)
+
+en este caso, vamos a manejar el control de la EPN, como entendimiento del sistema manera de controlar y entender como fue organizado desde punto inicio, tal que en nuestros .io existe los UML encargados o dando instrucciones a seguir en nuestro codigo al entendimiento. 
+
+![UML](assets/uml-symbols.png)
