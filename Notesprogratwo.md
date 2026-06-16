@@ -143,7 +143,7 @@ public class Suma{
   - **![titulo de la imagen a presentar](colocar ruta especifica de la imagen)**: es para presentacion de imagenes en un markdown y que se exporte a un pdf para presentacion formales  
   ![MARKDOWN](prjGithub/assets/markdown.png)
 
-## Comandos GIT para colocar usuario y email, ademas, ver lista de usuario registrado y eliminar 
+## Comandos GIT para colocar usuario y email, ademas, ver lista de usuario registrado y eliminar  
 
 ```Bash
 // para registrar para un repositorio
@@ -465,7 +465,7 @@ PC de casa:
 
 para propiedades tenemos en cada uno de las clases, propiedades que definan o que nosotros demos a entender de ese objeto a definir, como puede ser los int String, float mientras que metodos es llamas unas propiedades a mostrar sobre mi clase, es decir, hacer mi clase de una forma publica, si mis propiedades tengan restrincciones.
 
-En propiedades, siempre va con mayusculas mientras los metodos pueden ir en minusculas siendo asi, una forma mas versatil y rapido de tipio al momento de entender los metodos y siempre tiene que tener con un verbo en infinitivo. 
+En propiedades, siempre va con mayusculas mientras los metodos pueden ir en minusculas siendo asi, una forma mas versatil y rapido de tipio al momento de entender los metodos y siempre tiene que tener con un verbo en infinitivo.  
 
 la forma donde podemos mostrar un codigo, donde se puede hablar sobre el esquema de mi proyecto o de mi POO es tambien conocido como los Diagramas de UML
 
@@ -474,12 +474,12 @@ la forma donde podemos mostrar un codigo, donde se puede hablar sobre el esquema
 ---
 ## Use Case Diagram
 
-los diagramas de cassos de uso generalmente se desarrollan en la etapa inicial de desarrollo y las personas a menudo aplican el modelado de caso. 
+los diagramas de cassos de uso generalmente se desarrollan en la etapa inicial de desarrollo y las personas a menudo aplican el modelado de caso.  
 
 **modelo stickman para el modelo del UML**
-- ---> : Relacion 
-- Cuadro : Dominio de Sistema 
-- circulo : use case 
+- ---> : Relacion  
+- Cuadro : Dominio de Sistema  
+- circulo : use case  
 
 ![usecase](assets/Use_Case.png)
 
@@ -491,23 +491,38 @@ tambien llamado como un **actor** que puede representar :
 - animal
 - other objects
 
-### Supermaxi Model for Use case Diagram 
-tenemos los modelos mas comunes para un supermercado, tal que tenemos algunas funciones o realmente como funciona el sistema que manejan de compra como una marca a reconocer, como : 
-- productos 
-- perchas 
-- perchas 
-- clientes 
-- casillero 
-- cajero 
-tal que modelando en un Use Case deberia quedar en un modelo tq 
+### Supermaxi Model for Use case Diagram  
+tenemos los modelos mas comunes para un supermercado, tal que tenemos algunas funciones o realmente como funciona el sistema que manejan de compra como una marca a reconocer, como :  
+- productos  
+- perchas  
+- perchas  
+- clientes  
+- casillero  
+- cajero  
+tal que modelando en un Use Case deberia quedar en un modelo tq  
 
 ![DrawnSupermaxi](assets/Usecase_Supermaxi.png)
 
 
-## Herencia y Asociaciones 
-### Creacion de UML para toma de casos y manejo de codigo mendiante grafico para mayor interacción 
+## Herencia y Asociaciones  
 (colocar info y grabacion 15/06 de Herencia en Teams)
 
-en este caso, vamos a manejar el control de la EPN, como entendimiento del sistema manera de controlar y entender como fue organizado desde punto inicio, tal que en nuestros .io existe los UML encargados o dando instrucciones a seguir en nuestro codigo al entendimiento. 
+Tamben utilizaro para POO, conocido como extends o Herencia es una clase **Padre** que puede compartir ciertas caracteristicas a nuevas clases en nuestros proyectos, sin que tener que reescribir las mismas caracteristicas en todas las clase o tambien llamadas ahora por **Subclases**.  
+
+Manejandose asi, como podemos hacer que derivadas de la clase **Padre** pueda tener atributos tq, nos ayuda a tener un codigo limpio y sobretodo bien estructurado.  
+
+para estos casos, la Herencia el Java de la denomina asi:  
+
+``` java  
+/***
+ * donde la clase padre es la clase principal, por ende denominamos a la clase Hijo con extends para heredar sus atributos y caracteristicas  
+ ***/
+public class Hijo extends Padre { }
+```
+de la clase Principal, siempre llama a sus caracteristicas mediante getters and setters que estos son declaraciones para nuestra nueva clase sin necesidad de estar declarando nuevos atributos que ya disponemos.  
+
+
+### Creacion de UML para toma de casos y manejo de codigo mendiante grafico para mayor interacción  
+en este caso, vamos a manejar el control de la EPN, como entendimiento del sistema manera de controlar y entender como fue organizado desde punto inicio, tal que en nuestros .io existe los UML encargados o dando instrucciones a seguir en nuestro codigo al entendimiento.  
 
 ![UML](assets/uml-symbols.png)
