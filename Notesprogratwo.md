@@ -504,6 +504,11 @@ tal que modelando en un Use Case deberia quedar en un modelo tq
 ![DrawnSupermaxi](assets/Usecase_Supermaxi.png)
 
 
+### Creacion de UML para toma de casos y manejo de codigo mendiante grafico para mayor interacción  
+en este caso, vamos a manejar el control de la EPN, como entendimiento del sistema manera de controlar y entender como fue organizado desde punto inicio, tal que en nuestros .io existe los UML encargados o dando instrucciones a seguir en nuestro codigo al entendimiento.  
+
+![UML](assets/uml-symbols.png)
+
 ## Herencia y Asociaciones  
 (colocar info y grabacion 15/06 de Herencia en Teams)
 
@@ -521,8 +526,81 @@ public class Hijo extends Padre { }
 ```
 de la clase Principal, siempre llama a sus caracteristicas mediante getters and setters que estos son declaraciones para nuestra nueva clase sin necesidad de estar declarando nuevos atributos que ya disponemos.  
 
+### Herencia
+es un pilar de la Programación Orientada a Objetos (POO) que permite crear nuevas clases basadas en clases ya existentes. La nueva clase (hija) hereda los atributos y métodos de la original (padre), lo que fomenta la reutilización de código y establece relaciones jerárquicas directas.
 
-### Creacion de UML para toma de casos y manejo de codigo mendiante grafico para mayor interacción  
-en este caso, vamos a manejar el control de la EPN, como entendimiento del sistema manera de controlar y entender como fue organizado desde punto inicio, tal que en nuestros .io existe los UML encargados o dando instrucciones a seguir en nuestro codigo al entendimiento.  
+```java
+//clase padre 
+public class mamifero {
+    int orejas;
+    int trompa; 
+  public String amamantar() {
+        System.out.println ("Esta mamando");
+    }
+}
 
-![UML](assets/uml-symbols.png)
+```
+
+```java
+//clase hija 
+public class perro extends mamifero {
+    int orejas;
+    int trompa; 
+  public String amamantar() {
+        System.out.println ("Esta mamando");
+    }
+}
+
+```
+
+### Asociación
+ en la Programación Orientada a Objetos (POO), una asociación es una relación estructural que conecta dos o más clases. Permite que objetos independientes interactúen y colaboren entre sí para realizar tareas, sin que ninguno sea dueño del otro
+
+```java
+class Estudiante {
+    private String nombre;
+
+    public Estudiante(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+}
+
+class Universidad {
+    private String nombre;
+
+    public Universidad(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void matricular(Estudiante estudiante) {
+        System.out.println(
+            estudiante.getNombre() +
+            " fue matriculado en " +
+            nombre
+        );
+    }
+}
+```
+
+### Interface 
+En Programación Orientada a Objetos (POO), una interfaz es un contrato formal que define un conjunto de métodos y propiedades que una clase debe implementar. Solo dicta qué se debe hacer, pero no cómo se hace, lo que permite que diferentes clases tengan sus propias lógicas.
+
+```java
+interface Impresora {
+    void imprimir(String documento);
+}
+
+class ImpresoraLaser implements Impresora {
+    @Override
+    public void imprimir(String documento) {
+        System.out.println("Imprimiendo en láser: " + documento);
+    }
+}
+```
+
+> [!NOTE]
+> Todo debe estar en un mismo package.
