@@ -6,11 +6,11 @@ import Gym.Datafast;
 public class AppGym {
     public static void main(String[] args) throws Exception {
         Cliente c = new Cliente();
-        c.setNombre("Matias");
-        c.setApellido("Enriquez");
+        c.setNombre("Samuel");
+        c.setApellido("Andres");
         Recepcionista r = new Recepcionista();
-        r.setNombre("Patricio");
-        r.setApellido("Figueroa");
+        r.setNombre("Lucero");
+        r.setApellido("Velepucha");
         SistemaAutenticacion s = new SistemaAutenticacion();
         Datafast d = new Datafast();
 

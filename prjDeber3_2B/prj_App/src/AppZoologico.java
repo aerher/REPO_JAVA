@@ -6,12 +6,12 @@ import Zoologico.Visitante;
 public class AppZoologico {
     public static void main(String[] args) throws Exception {
             Visitante v = new Visitante();
-            v.setNombre("Matias");
-            v.setApellido("Enriquez");
+            v.setNombre("Samuel");
+            v.setApellido("Andres");
         
             Trabajador t = new Trabajador();
-            t.setNombre("Patricio");
-            t.setApellido("Figueroa");
+            t.setNombre("Lucero");
+            t.setApellido("Velepucha");
         
             Datafast d = new Datafast();
             Sistema s = new Sistema();
