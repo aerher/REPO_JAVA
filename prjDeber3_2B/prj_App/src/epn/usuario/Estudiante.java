@@ -1,4 +1,4 @@
-package epn;
+package EPN.usuario;
 
 public class Estudiante extends Persona {
     private String carrera;
@@ -6,8 +6,5 @@ public class Estudiante extends Persona {
     private Double promedioAcumulado;
     private String estadoMatricula;
     private String codigoUnico;
-
-
-
 
 }
