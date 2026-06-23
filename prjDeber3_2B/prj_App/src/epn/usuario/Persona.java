@@ -1,4 +1,4 @@
-package EPN.usuario;
+package epn.usuario;
 
 import java.sql.Date;
 

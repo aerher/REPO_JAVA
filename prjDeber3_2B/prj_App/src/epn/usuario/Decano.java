@@ -1,4 +1,4 @@
-package EPN.usuario;
+package epn.usuario;
 
 public class Decano extends Persona {
     private String facultad;

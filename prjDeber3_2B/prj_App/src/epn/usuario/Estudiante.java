@@ -1,4 +1,4 @@
-package EPN.usuario;
+package epn.usuario;
 
 public class Estudiante extends Persona {
     private String carrera;

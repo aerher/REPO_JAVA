@@ -1,4 +1,4 @@
-package EPN.sistema;
+package epn.sistema;
 
 public class SistemaEPN implements IAccion {
     private String version;

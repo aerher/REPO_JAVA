@@ -1,4 +1,4 @@
-import EPN.sistema.ControlerSystem;
+import epn.sistema.ControlerSystem;
 
 public class AppEPN {
     public static void main(String[] args) throws Exception {

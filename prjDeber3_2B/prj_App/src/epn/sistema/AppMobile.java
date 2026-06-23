@@ -1,4 +1,4 @@
-package EPN.sistema;
+package epn.sistema;
 
 public class AppMobile extends SistemaEPN implements IAccion {
     public AppMobile() {

@@ -1,4 +1,4 @@
-package EPN.sistema;
+package epn.sistema;
 
 public interface IAccion {
     boolean on();
