@@ -7,7 +7,7 @@
 # Class I : Git
 
 
-## Primer programa en Java
+## Primer program en Java
  - 461  cd ..  
  - 462  ls -la
  - 463  cd prjGit
@@ -23,7 +23,7 @@
  - 473  code Hi.java  : para ingresar a mi archivo para editar  
  - 474  history : para ver mis lineas de codigo  
 - 475 mkdir doc : para crear una carpeta con el siguiente nombre .  
-## Mi programa de Hello World
+## Mi program de Hello World
 ```java
 
 public class Hi{
@@ -36,7 +36,7 @@ public class Hi{
     }
 }
 ```
-## Mi programa de Suma en Java  
+## Mi program de Suma en Java
 
 - 480  clear
 - 481  code Suma.java
@@ -63,10 +63,10 @@ public class Suma{
 ```
 
 # Class II : github
-## Comandos Linux  
+## Commandos Linux
 
- - 441  ls -ña  
- - 442  ls -la  
+ - 441  ls -ña
+ - 442  ls -la
  - 443  pwd : ubicacion de mi directorio o repositorio  
  - 444  pwd
  - 445  cd c:/ ir a una ruta con cd  
@@ -103,8 +103,8 @@ public class Suma{
  - 493  history
 
 
-  ## Git comand  
-  ### comandos base  
+  ## Git command
+  ### commandos base  
   - git clone : voy a traer un repositorio de la nube a mi maquina con su URL
   
   1 vez  
@@ -135,7 +135,7 @@ public class Suma{
   - git push -u origin master : es para que git recuerde la conexion entre tu local y el remoto  
   ![GIT](assets/GIT.PNG)
   
-  ### Pero si git push no conectado a una URL  
+  ## Pero si git push no conectado a una URL
   - git remote add origin "URL httml " : nos sirve para conectar el repositorio virtual con nuestra maquina local y se puedan hacer los push de nuestros archivos  
   - git push -u origin main : nos sirve para declarar por primera vez el update de nuestro repo a GITHU , demas con " - u " nos sirve para simplificar el hecho de repetir el " origin main " sino que solo con git push, ya nos dejaria subir nuestro repo local.  
 -  
@@ -420,7 +420,7 @@ Cast or casting : una forma de transformar variables o una forma de coordialidad
 
 ## POO BASIC -> 28/04
 - if : bloque de codigo que sirve para dar excepciones, si especifica una condicion es verdadera.
-- else : bloque de codigo que parte de if, es para la expcecion si no cumploe con la condicion de verdadero siendo falso.  
+- else : bloque de codigo que parte de if, es para la expcecion si no cumploe con la condicion de verdadero siendo falso.
 - else if : cuando existe estas excepciones es por la cual quiere agregar mas booleans siendo asi una nuevo condicion de texto, cuando la primera condicion es falsa.
 - switch : bloque de comando o cidogo para alternar bloques de codigos agregados con excepciones  
 - ? : para utilizar especialmente en una sola linea de condicion  
@@ -459,148 +459,3 @@ PC de casa:
 >>>>>>> 49772992eba31bec7985c53cd62dd6cafcc9433a
 
 ---
-# Segundo Bimestre.
-
-## Propiedades y Metodos de Clases
-
-para propiedades tenemos en cada uno de las clases, propiedades que definan o que nosotros demos a entender de ese objeto a definir, como puede ser los int String, float mientras que metodos es llamas unas propiedades a mostrar sobre mi clase, es decir, hacer mi clase de una forma publica, si mis propiedades tengan restrincciones.
-
-En propiedades, siempre va con mayusculas mientras los metodos pueden ir en minusculas siendo asi, una forma mas versatil y rapido de tipio al momento de entender los metodos y siempre tiene que tener con un verbo en infinitivo.  
-
-la forma donde podemos mostrar un codigo, donde se puede hablar sobre el esquema de mi proyecto o de mi POO es tambien conocido como los Diagramas de UML
-
-![UML](assets/UML.png)
-
----
-## Use Case Diagram
-
-los diagramas de cassos de uso generalmente se desarrollan en la etapa inicial de desarrollo y las personas a menudo aplican el modelado de caso.  
-
-**modelo stickman para el modelo del UML**
-- ---> : Relacion  
-- Cuadro : Dominio de Sistema  
-- circulo : use case  
-
-![usecase](assets/Use_Case.png)
-
-![simbolusecase](assets/simbologia_usecase.png)
-
-tambien llamado como un **actor** que puede representar :
-- objeto
-- Sujeto
-- animal
-- other objects
-
-### Supermaxi Model for Use case Diagram  
-tenemos los modelos mas comunes para un supermercado, tal que tenemos algunas funciones o realmente como funciona el sistema que manejan de compra como una marca a reconocer, como :  
-- productos  
-- perchas  
-- perchas  
-- clientes  
-- casillero  
-- cajero  
-tal que modelando en un Use Case deberia quedar en un modelo tq  
-
-![DrawnSupermaxi](assets/Usecase_Supermaxi.png)
-
-
-### Creacion de UML para toma de casos y manejo de codigo mendiante grafico para mayor interacción  
-en este caso, vamos a manejar el control de la EPN, como entendimiento del sistema manera de controlar y entender como fue organizado desde punto inicio, tal que en nuestros .io existe los UML encargados o dando instrucciones a seguir en nuestro codigo al entendimiento.  
-
-![UML](assets/uml-symbols.png)
-
-## Herencia y Asociaciones  
-(colocar info y grabacion 15/06 de Herencia en Teams)
-
-Tamben utilizaro para POO, conocido como extends o Herencia es una clase **Padre** que puede compartir ciertas caracteristicas a nuevas clases en nuestros proyectos, sin que tener que reescribir las mismas caracteristicas en todas las clase o tambien llamadas ahora por **Subclases**.  
-
-Manejandose asi, como podemos hacer que derivadas de la clase **Padre** pueda tener atributos tq, nos ayuda a tener un codigo limpio y sobretodo bien estructurado.  
-
-para estos casos, la Herencia el Java de la denomina asi:  
-
-``` java  
-/***
- * donde la clase padre es la clase principal, por ende denominamos a la clase Hijo con extends para heredar sus atributos y caracteristicas  
- ***/
-public class Hijo extends Padre { }
-```
-de la clase Principal, siempre llama a sus caracteristicas mediante getters and setters que estos son declaraciones para nuestra nueva clase sin necesidad de estar declarando nuevos atributos que ya disponemos.  
-
-### Herencia
-es un pilar de la Programación Orientada a Objetos (POO) que permite crear nuevas clases basadas en clases ya existentes. La nueva clase (hija) hereda los atributos y métodos de la original (padre), lo que fomenta la reutilización de código y establece relaciones jerárquicas directas.
-
-```java
-//clase padre 
-public class mamifero {
-    int orejas;
-    int trompa; 
-  public String amamantar() {
-        System.out.println ("Esta mamando");
-    }
-}
-
-```
-
-```java
-//clase hija 
-public class perro extends mamifero {
-    int orejas;
-    int trompa; 
-  public String amamantar() {
-        System.out.println ("Esta mamando");
-    }
-}
-
-```
-
-### Asociación
- en la Programación Orientada a Objetos (POO), una asociación es una relación estructural que conecta dos o más clases. Permite que objetos independientes interactúen y colaboren entre sí para realizar tareas, sin que ninguno sea dueño del otro
-
-```java
-class Estudiante {
-    private String nombre;
-
-    public Estudiante(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-}
-
-class Universidad {
-    private String nombre;
-
-    public Universidad(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public void matricular(Estudiante estudiante) {
-        System.out.println(
-            estudiante.getNombre() +
-            " fue matriculado en " +
-            nombre
-        );
-    }
-}
-```
-
-### Interface 
-En Programación Orientada a Objetos (POO), una interfaz es un contrato formal que define un conjunto de métodos y propiedades que una clase debe implementar. Solo dicta qué se debe hacer, pero no cómo se hace, lo que permite que diferentes clases tengan sus propias lógicas.
-
-```java
-interface Impresora {
-    void imprimir(String documento);
-}
-
-class ImpresoraLaser implements Impresora {
-    @Override
-    public void imprimir(String documento) {
-        System.out.println("Imprimiendo en láser: " + documento);
-    }
-}
-```
-
-> [!NOTE]
-> Todo debe estar en un mismo package.
